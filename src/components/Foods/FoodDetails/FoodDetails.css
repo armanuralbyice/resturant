@@ -1,0 +1,88 @@
+.food-details{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.details{
+    width: 50%;
+    margin-left: 20px;
+    align-items: center;
+}
+.foods-description p{
+    font-size: 18px;
+    font-family: cursive;
+    color: gray;
+    margin-bottom: 15px;
+}
+.foods-description p:hover{
+    color: black;
+}
+.priceAndQuantity{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.price h3{
+    font-size: 30px;
+    font-family: cursive;
+}
+.Btn button{
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #f62a5c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.cart-add-remove{
+    display: flex;
+    height: 35px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 0 10px;
+}
+.cart-add-remove h3{
+    height: 35px;
+    width: 60px;
+    border: none;
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 3px;
+}
+.cart-add-remove button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.cart-add-remove button:hover{
+    color: #f62a5c;
+    cursor: pointer;
+}
+.cart-add-remove button:active{
+    transform: translateY(2px);
+}
+.image img{
+    height: 600px;
+}
+.foods-name h1{
+    font-weight: 700;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.Btn button:active{
+    transform: translateY(2px);
+}

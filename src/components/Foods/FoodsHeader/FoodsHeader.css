@@ -1,0 +1,25 @@
+.food-header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: center;
+}
+.food-header ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+.food-header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.food-header a:hover{
+    cursor: pointer;
+    color: #da1043;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-weight: bold;
+}
